@@ -10,7 +10,7 @@ set(SRCS
 set(HEADERS
 )
 
-include_directories("/share/home/khenry/simulateur/headers")
+include_directories("headers")
 
 add_executable(${CMAKE_PROJECT_NAME} ${SRCS} ${HEADERS})
 
